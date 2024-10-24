@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css" />
+        <script src="./index.js" defer></script>
+    </head>
+    <body>
+        <h1>Directory tree</h1>
+        <p>Given a json object with possibly several nested objects, print the structure out in a directory tree format</p>
+        <section title="JSON object">
+            <h2>JSON Object</h2>
+            <code>
+                "root": {
+                    "folder1": {
+                        "subfolder1": {
+                            "file1.txt": None,
+                            "file2.txt": None
+                        },
+                        "subfolder2": {
+                            "file3.txt": None
+                        }
+                    },
+                    "folder2": {
+                        "file4.txt": None
+                    },
+                    "file5.txt": None
+                }
+            </code>
+        </section>
+        <section title="Traversal rendering">
+            <h2>Directory Render</h2>
+            <div id="render-container">
+                
+            </div>
+        </section>
+    </body>
+</html>
