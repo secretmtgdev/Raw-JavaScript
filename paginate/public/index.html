@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <script src="index.mjs" type="module" defer></script> 
+    </head>
+    <body>
+        <h1>Paginated component</h1>
+        <div class="pagination-container">
+            <table id="pagination-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Street</th>
+                        <th>City, State, Zip code</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                
+            </table>
+            <div id="pagination-controls">
+                <button type="button" id="prev-button" class="button">Prev</button>
+                <span>Current Page: <span id="current-page">1</span></span>
+                <button type="button" id="next-button" class="button">Next</button>
+            </div>
+        </div>
+    </body>
+</html>

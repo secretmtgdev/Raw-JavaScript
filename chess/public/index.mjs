@@ -31,15 +31,16 @@ import { Position } from "./Position.mjs";
             const currentSelectedPiece = document.querySelector(`[data-position="${dataKey}"]`);
     
             if (BoardManager.lastSelectedPiece !== null) {
-                const lastSelectedPiece = document.querySelector(`[data-position="${BoardManager.last_selected_piece}"]`);
+                const lastSelectedPiece = document.querySelector(`[data-position="${BoardManager.lastSelectedPiece}"]`);
                 storedPiece.selected = false;
                 lastSelectedPiece.classList.remove('selected-player');
             }
-    
-            BoardManager.lastSelectedPiece = dataKey;
+                
             storedPiece.selected = true;
             currentSelectedPiece.classList.add('selected-player');
         }
+        
+        BoardManager.lastSelectedPiece = dataKey;
     }
 
     function createCell(row, col) {
