@@ -1,10 +1,6 @@
-# Moveable tiles
+# Paginate
 ## Description
-This is nothing more than just a mini test to move colored tiles around on a grid. Topics covered: 
-- RAW component design
-- Static fields/methods
-- Events
-- Basic node server
+This is a simple pagination widget.
 
 ## Images
 - ![First page default](https://github.com/secretmtgdev/Raw-JavaScript/blob/main/paginate/assets/images/first_page.png)
